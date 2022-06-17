@@ -1,0 +1,11 @@
+* {
+    background-color: rgb(197, 194, 191);
+}
+
+h1 {
+    background-color: aquamarine;
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    border-style: groove;
+}
