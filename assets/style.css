@@ -2,10 +2,48 @@
     background-color: rgb(197, 194, 191);
 }
 
-h1 {
+header {
     background-color: aquamarine;
     width: 100%;
     height: auto;
     border-radius: 10px;
     border-style: groove;
+} 
+
+#header {
+    text-align: left;
+    background-color: salmon;
+}
+
+body {
+    text-align: center;
+}
+
+ul {
+    text-align: right;
+    list-style: none;
+    margin-top: -35px;
+}
+
+ul li {
+    display: inline-block;
+    padding-left: 10px;
+}
+
+ul li:last-child{
+    padding-right: 10px;
+}
+
+section {
+    display: block;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 5px;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
