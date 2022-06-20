@@ -1,5 +1,5 @@
 * {
-    background-color: rgb(197, 194, 191);
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 header {
@@ -12,11 +12,18 @@ header {
 
 #header {
     text-align: left;
-    background-color: salmon;
+}
+
+h4 {
+    text-align: center;
 }
 
 body {
     text-align: center;
+    font-size: 16px;
+    display: flex;
+    flex-direction:column;
+    justify-content: flex-start;
 }
 
 ul {
@@ -42,8 +49,36 @@ section {
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
     border-radius: 5px;
+    padding: 5px;
+    background-color: #bbe6e0;
+}
+
+.projects {
+    flex: 1;
+    padding: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+footer {
+    bottom: 0;
+    padding: 20px;
+    text-align: left;
+    background: #43998d;
+    color: #fff;
+    margin-top: auto;
+    border-radius: 5px;
+    border-style: groove;
+    height: auto;
+  }
+
+footer ul {
+    text-align: center;
+    margin-top: 0%;
 }
 
 .card:hover {
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
+
