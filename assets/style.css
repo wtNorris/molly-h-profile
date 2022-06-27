@@ -2,28 +2,40 @@
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
+#gradient {
+    height: auto;
+    background-color: beige; /* for non-gradient browsers */
+    background-image: linear-gradient(rgb(81, 211, 200), pink);
+}
+
 header {
-    background-color: aquamarine;
-    width: 100%;
+    background-color: rgb(179, 240, 237);
+    width: auto;
     height: auto;
     border-radius: 5px;
     border-style: groove;
 } 
 
-#header {
+#header { /* box with name and nav links */
     text-align: left;
+    margin: 1%;
 }
 
-img {
+#profileImage {
     border-radius: 50%;
-    width: 5%;
+    width: 6%;
     height: auto;
     margin-bottom: auto;
     margin-left: 3%;
 }
 
+p {
+    margin: 5%;
+}
+
 h3 {
-    background-color: aquamarine;
+    color:#fff;
+    background-image: url("/assets/bckgrnd.jpg");
     border-radius: 5px;
     border-style: groove;
     margin: 1%;
@@ -36,6 +48,7 @@ h4 {
 }
 
 body {
+    margin: 1px;
     text-align: center;
     font-size: 16px;
     display: flex;
@@ -62,13 +75,24 @@ section {
 }
 
 .projects {
-    margin: 0px;
+    margin: 40px;
     flex: 1;
     padding: 50px;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: center;
+}
+
+.cardbig {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    height: 30%;
+    padding: 10px;
+    margin: 10px;
+    float: left;
+    margin-top: 10px;
 }
 
 .card {
@@ -79,28 +103,36 @@ section {
     border-width: 10px;
     border-radius: 5px;
     padding: 10px;
-    background-color: #bbe6e0;
+    background-color: #d5e7e5;
     margin: 30px;
+}
+
+.container {
+    padding: 2px 16px;
+    background-color: rgba(192, 241, 245, 0.877);
+    width: auto;
+    height: auto;
+    border-radius: none;
+    border-style: outset;
 }
 
 footer {
     bottom: 0;
     padding: 20px;
     text-align: left;
-    background: #43998d;
+    background-image: url("/assets/bckgrnd.jpg");
     color: #fff;
     margin-top: auto;
     border-radius: 5px;
     border-style: groove;
     height: auto;
-  }
+}
 
 footer ul {
     text-align: center;
-    margin-top: 0%;
+    margin-right: 40px;
 }
 
 .card:hover {
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
-
